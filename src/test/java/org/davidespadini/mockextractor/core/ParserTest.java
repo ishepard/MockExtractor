@@ -1,10 +1,11 @@
-package org.davidespadini.mockextractor;
+package org.davidespadini.mockextractor.core;
 
 import java.io.IOException;
 import java.util.List;
 
-import org.davidespadini.mockextractor.Parser;
-import org.davidespadini.mockextractor.Variable;
+import org.davidespadini.mockextractor.BaseTest;
+import org.davidespadini.mockextractor.core.Parser;
+import org.davidespadini.mockextractor.dto.Variable;
 import org.junit.Assert;
 import org.junit.Test;
 

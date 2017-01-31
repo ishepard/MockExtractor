@@ -1,5 +1,5 @@
 exclude:
 - /tests/.*
-component_depth: 1
+component_depth: 7
 languages:
 - java

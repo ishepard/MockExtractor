@@ -1,4 +1,4 @@
-package org.davidespadini.mockextractor;
+package org.davidespadini.mockextractor.utils;
 
 import java.util.HashSet;
 import java.util.Set;

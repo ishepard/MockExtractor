@@ -1,4 +1,4 @@
-package org.davidespadini.mockextractor;
+package org.davidespadini.mockextractor.core;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -6,6 +6,8 @@ import java.io.PrintWriter;
 import java.util.List;
 import java.util.Map;
 
+import org.davidespadini.mockextractor.dto.Variable;
+import org.davidespadini.mockextractor.utils.FileUtils;
 import org.eclipse.jdt.core.JavaCore;
 import org.eclipse.jdt.core.dom.AST;
 import org.eclipse.jdt.core.dom.ASTParser;

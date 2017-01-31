@@ -1,9 +1,12 @@
-package org.davidespadini.mockextractor;
+package org.davidespadini.mockextractor.core;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
+import org.davidespadini.mockextractor.dto.Variable;
+import org.davidespadini.mockextractor.visitors.DependenciesVisitor;
+import org.davidespadini.mockextractor.visitors.VariablesVisitor;
 import org.eclipse.jdt.core.dom.CompilationUnit;
 import org.eclipse.jdt.core.dom.FileASTRequestor;
 

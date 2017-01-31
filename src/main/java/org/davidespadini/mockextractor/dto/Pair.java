@@ -1,4 +1,4 @@
-package org.davidespadini.mockextractor;
+package org.davidespadini.mockextractor.dto;
 
 public class Pair {
 	String key1;

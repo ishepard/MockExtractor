@@ -1,8 +1,9 @@
-package org.davidespadini.mockextractor;
+package org.davidespadini.mockextractor.visitors;
 
 import java.util.HashSet;
 import java.util.Set;
 
+import org.davidespadini.mockextractor.utils.ParserUtil;
 import org.eclipse.jdt.core.dom.ASTVisitor;
 import org.eclipse.jdt.core.dom.ArrayCreation;
 import org.eclipse.jdt.core.dom.CastExpression;

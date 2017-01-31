@@ -2,6 +2,9 @@ package org.davidespadini.mockextractor;
 
 import java.io.IOException;
 
+import org.davidespadini.mockextractor.core.Parser;
+import org.davidespadini.mockextractor.utils.FileUtils;
+
 public class Runner {
 
 	public static void main(String[] args) throws IOException {
