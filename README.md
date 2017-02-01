@@ -10,12 +10,9 @@ This tool was part of our MSR 2017 paper _(to be accepted)_.
 
 Usage: `java -jar <tool>.jar <directory> <dir-deps> <output.csv>`
 
-_directory_: directory of the app to be analyzed.
-_dir-deps_: directory of the JAR dependencies of that file.
-_output.csv_: path to the final CSV file
-
-Check `Runner.java`.
-
+- _directory_: directory of the app to be analyzed.
+- _dir-deps_: directory of the JAR dependencies of that file.
+- _output.csv_: path to the final CSV file.
 
 # License
 
