@@ -4,7 +4,7 @@
 MockExtractor extracts the list of mocked and non mocked dependencies in
 all test units (JUnit tests) of a given system.
 
-This tool was part of our MSR 2017 paper _(to be accepted)_.
+This tool was part of our MSR 2017 paper.
 
 # Usage
 
